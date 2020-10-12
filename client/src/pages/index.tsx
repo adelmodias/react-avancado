@@ -4,6 +4,8 @@ type Props = {
     title: string
 }
 
+const foo = "bla";
+
 export default function Home({title = "Primeiro projeto com Nextjs"}: Props) {
     return (
         <Head>
